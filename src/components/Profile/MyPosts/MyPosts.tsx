@@ -10,8 +10,8 @@ function MyPosts() {
                 New post
             </div>
             <div>
-                <Post message={'hello'}/>
-                <Post message={`It's my first post`}/>
+                <Post message={'hello'} countLike={15}/>
+                <Post message={`It's my first post`} countLike={10}/>
             </div>
         </div>
     );

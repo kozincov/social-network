@@ -8,7 +8,7 @@ function Post(props:any) {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7pvx6841UOCAy0W6MEd-CNcJrGeDQung_Tg&usqp=CAU"/>
             {props.message}
             <div>
-                <span>likes</span>
+                <span>likes {props.countLike}</span>
             </div>
         </div>
     );
