@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./MyPosts.module.css"
+import Post from "./Post/Post";
 
 function MyPosts() {
     return (
@@ -9,12 +10,7 @@ function MyPosts() {
                 New post
             </div>
             <div>
-                <div>
-                    post 1
-                </div>
-                <div>
-                    post 2
-                </div>
+                <Post/>
             </div>
         </div>
     );
