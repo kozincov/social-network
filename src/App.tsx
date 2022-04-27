@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import style from "./App.module.css"
 import Profile from "./components/Profile/Profile";
+import {Route, Routes} from "react-router-dom";
+import {Dialogs} from "./components/Dialogs/Dialogs";
 
 function App() {
     return (
@@ -11,7 +13,10 @@ function App() {
             <Header/>
             <Navbar/>
             <div className={style.app_wrapper_content}>
-                <Profile/>
+                <Routes>
+                    <Route path={'/profile'} element={<Profile/>}/>
+                    <Route path={'/message'} element={<Dialogs/>}/>
+                </Routes>
             </div>
         </div>
     );
