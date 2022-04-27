@@ -3,3 +3,12 @@
     background-color: antiquewhite;
     padding: 25px;
 }
+
+.item a {
+    color: #b577ee;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: cadetblue;
+}
