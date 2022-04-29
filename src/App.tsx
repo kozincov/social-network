@@ -6,6 +6,7 @@ import style from "./App.module.css"
 import Profile from "./components/Profile/Profile";
 import {Route, Routes} from "react-router-dom";
 import {Dialogs} from "./components/Dialogs/Dialogs";
+import {Settings} from "./components/Settings/Settings";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Routes>
                     <Route path={'/profile'} element={<Profile/>}/>
                     <Route path={'/message'} element={<Dialogs/>}/>
+                    <Route path={'/settings'} element={<Settings/>}/>
                 </Routes>
             </div>
         </div>
