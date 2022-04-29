@@ -7,6 +7,7 @@ import Profile from "./components/Profile/Profile";
 import {Route, Routes} from "react-router-dom";
 import {Dialogs} from "./components/Dialogs/Dialogs";
 import {Settings} from "./components/Settings/Settings";
+import {Music} from "./components/Music/Music";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Routes>
                     <Route path={'/profile'} element={<Profile/>}/>
                     <Route path={'/message'} element={<Dialogs/>}/>
+                    <Route path={'/music'} element={<Music/>}/>
                     <Route path={'/settings'} element={<Settings/>}/>
                 </Routes>
             </div>
