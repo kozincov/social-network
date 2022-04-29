@@ -1,0 +1,5 @@
+export {Header} from './Header/Header'
+export {Navbar} from './Navbar/Navbar'
+export {News} from './News/News'
+export {Music} from './Music/Music'
+export {Settings} from './Settings/Settings'
