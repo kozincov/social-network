@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom";
                 <NavLink to={'/profile'} className={({isActive}) => isActive ? style.activeLink : style.item}>Profile</NavLink>
             </div>
             <div className={style.item}>
-                <NavLink to={'/message'} className={({isActive}) => isActive ? style.activeLink : style.item}>Message</NavLink>
+                <NavLink to={'/dialogs'} className={({isActive}) => isActive ? style.activeLink : style.item}>Message</NavLink>
             </div>
             <div className={style.item}>
                 <NavLink to={'/news'} className={({isActive}) => isActive ? style.activeLink : style.item}>News</NavLink>
