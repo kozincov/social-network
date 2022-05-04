@@ -17,9 +17,9 @@ export const Dialogs = () => {
         {id: 3, message: 'Yo'}
     ]
 
-    let dialogsElements = dialogs.map(m => <DialogItem name={m.name} id={m.id}/>)
+    let dialogsElements = dialogs.map(m => <DialogItem id={m.id} name={m.name}/>)
 
-    let messagesElements = messages.map(m => <Message message={m.message}/>)
+    let messagesElements = messages.map(m => <Message id={m.id} message={m.message}/>)
 
     return (
         <div className={style.dialogs}>
