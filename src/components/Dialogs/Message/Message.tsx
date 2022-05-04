@@ -1,7 +1,12 @@
 import React from 'react';
 import style from './../Dialogs.module.css'
 
-export const Message = (props: any) => {
+export type MessageType = {
+    id: number
+    message: string
+}
+
+export const Message = (props: MessageType) => {
     return (
         <div className={style.dialog}>{props.message}</div>
     )
